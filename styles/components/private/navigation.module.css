@@ -1,0 +1,22 @@
+.aside {
+  @apply flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700;
+}
+
+.container {
+  @apply flex items-center justify-center;
+}
+
+.nav_container {
+  @apply flex flex-col justify-between flex-1 mt-6;
+}
+
+.link_logout {
+  @apply flex items-center px-4 -mx-2 mt-5 text-gray-800 dark:text-gray-200;
+}
+.span {
+  @apply mx-2 font-medium;
+}
+
+.icon {
+  @apply w-5 h-5;
+}

@@ -1,0 +1,15 @@
+.nav {
+  @apply h-1/5 bg-emerald-700;
+}
+
+.container {
+  @apply h-full flex items-center justify-between px-6 pb-6 text-white;
+}
+
+.path {
+  @apply flex items-center;
+}
+
+.profile {
+  @apply flex items-center;
+}

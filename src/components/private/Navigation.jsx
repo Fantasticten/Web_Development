@@ -1,20 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styles from "../../../styles/components/private/navigation.module.css";
 
 const Navigation = () => {
   return (
-    <aside className="flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
-      <div className="flex items-center justify-center">
+    <aside className={styles.aside}>
+      <div className={styles.container}>
         <Link to="/">
           <img
             className="w-auto sm:h-12"
-            src="../../../public/logo.svg"
+            src="/public/logo.svg"
             alt="Kei Dental Care"
           />
         </Link>
       </div>
 
-      <div className="flex flex-col justify-between flex-1 mt-6">
+      <div className={styles.nav_container}>
         <nav>
           {[
             {
@@ -22,7 +23,7 @@ const Navigation = () => {
               label: "Dashboard",
               icon: (
                 <svg
-                  className="w-5 h-5"
+                  className={styles.icon}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +40,7 @@ const Navigation = () => {
               label: "Data Pasien",
               icon: (
                 <svg
-                  className="w-5 h-5"
+                  className={styles.icon}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +67,7 @@ const Navigation = () => {
               label: "Data Antrian",
               icon: (
                 <svg
-                  className="w-5 h-5"
+                  className={styles.icon}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +87,7 @@ const Navigation = () => {
               label: "Data Program",
               icon: (
                 <svg
-                  className="w-5 h-5"
+                  className={styles.icon}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +127,7 @@ const Navigation = () => {
               label: "Konsultasi",
               icon: (
                 <svg
-                  className="w-5 h-5"
+                  className={styles.icon}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -150,12 +151,9 @@ const Navigation = () => {
           ))}
         </nav>
 
-        <Link
-          to="/logout"
-          className="flex items-center px-4 -mx-2 mt-5 text-gray-800 dark:text-gray-200"
-        >
+        <Link to="/logout" className={styles.link_logout}>
           <svg
-            className="w-5 h-5 mx-1"
+            className={styles.icon}
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +163,7 @@ const Navigation = () => {
               fill="currentColor"
             ></path>
           </svg>
-          <span className="mx-2 font-medium">Log Out</span>
+          <span className={styles.span}>Log Out</span>
         </Link>
       </div>
     </aside>

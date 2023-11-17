@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "../../../styles/components/private/footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className="h-[70px] bg-emerald-700 text-white flex items-center justify-center">
+    <footer className={styles.footer}>
       <p>&copy; 2021 Company, Inc</p>
     </footer>
   );

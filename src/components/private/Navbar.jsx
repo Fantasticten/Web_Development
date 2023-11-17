@@ -1,13 +1,14 @@
 import React from "react";
+import styles from "../../../styles/components/private/navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav className="h-1/5 bg-emerald-700">
-      <div className="h-full flex items-center justify-between px-6 pb-6 text-white">
-        <div className="flex items-center">
+    <nav className={styles.nav}>
+      <div className={styles.container}>
+        <div className={styles.path}>
           <span>Data Antrian</span>
         </div>
-        <div className="flex items-center">
+        <div className={styles.profile}>
           <span>Drg. Rima</span>
         </div>
       </div>
