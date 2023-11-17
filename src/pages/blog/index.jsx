@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog = () => {
+const NotFound = () => {
   return (
     <div>
       <h1 className="text-red-800 text-7xl flex justify-center items-center h-screen">
@@ -10,4 +10,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default NotFound;

@@ -1,0 +1,60 @@
+{
+    "get": [
+        {
+            "id": 1,
+            "nomor": 1,
+            "nama": "berliyan",
+            "kode_antrian": "2223eq",
+            "pelayanan": "potong gigi",
+            "no_telepon": "082232123134"
+        },
+        {
+            "id": 2,
+            "nomor": 2,
+            "nama": "john",
+            "kode_antrian": "abc123",
+            "pelayanan": "periksa mata",
+            "no_telepon": "081234567890"
+        },
+        {
+            "id": 3,
+            "nomor": 3,
+            "nama": "jane",
+            "kode_antrian": "xyz456",
+            "pelayanan": "tes darah",
+            "no_telepon": "087654321098"
+        },
+        {
+            "id": 4,
+            "nomor": 4,
+            "nama": "michael",
+            "kode_antrian": "123def",
+            "pelayanan": "cuci gigi",
+            "no_telepon": "081112233445"
+        },
+        {
+            "id": 5,
+            "nomor": 5,
+            "nama": "susan",
+            "kode_antrian": "789ghi",
+            "pelayanan": "gigi behel",
+            "no_telepon": "089876543210"
+        },
+        {
+            "id": 6,
+            "nomor": 6,
+            "nama": "robert",
+            "kode_antrian": "456jkl",
+            "pelayanan": "periksa gigi",
+            "no_telepon": "081234567890"
+        },
+        {
+            "id": 7,
+            "nomor": 7,
+            "nama": "emily",
+            "kode_antrian": "101mno",
+            "pelayanan": "rontgen gigi",
+            "no_telepon": "087654321098"
+        }
+    ]
+}
